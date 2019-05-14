@@ -6,7 +6,7 @@ This repository contains projects for Udacity's [Data Analyst Nanodegree](https:
 
 ---
 
-## Intro Project: Explore Weather Trends
+## [Intro Project: Explore Weather Trends](1_Exploring_Weather_Trends/1_Exploring_Weather_Trends.ipynb)
 
 This project will introduce you to the SQL and how to download data from a database. You’ll analyze local
 and global temperature data and compare the temperature trends where you live to overall global
