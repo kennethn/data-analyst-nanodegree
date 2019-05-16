@@ -12,7 +12,7 @@ This project will introduce you to the SQL and how to download data from a datab
 and global temperature data and compare the temperature trends where you live to overall global
 temperature trends.
 
-## [Project 1: Investigate a Dataset](2_Investigate_A_Dataset/2_Investigate_A_Dataset.ipynb) (in progress)
+## [Project 1: Investigate a Dataset](2_Investigate_A_Dataset/2_Investigate_A_Dataset.ipynb)
 
 In this project, you’ll choose one of Udacity's curated datasets and investigate it using NumPy and pandas.
 You’ll complete the entire data analysis process, starting by posing a question and finishing by sharing your
