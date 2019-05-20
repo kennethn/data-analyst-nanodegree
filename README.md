@@ -18,7 +18,7 @@ In this project, you’ll choose one of Udacity's curated datasets and investiga
 You’ll complete the entire data analysis process, starting by posing a question and finishing by sharing your
 findings.
 
-## [Project 2: Analyze Experiment Results](3_Analyze_AB_Test_Results/3_Analyze_AB_Test_Results.ipynb) (in progress)
+## [Project 2: Analyze Experiment Results](3_Analyze_AB_Test_Results/3_Analyze_AB_Test_Results.ipynb)
 
 In this project, you will be provided a dataset reflecting data collected from an experiment. You’ll use
 statistical techniques to answer questions about the data and report your conclusions and
