@@ -24,7 +24,7 @@ In this project, you will be provided a dataset reflecting data collected from a
 statistical techniques to answer questions about the data and report your conclusions and
 recommendations in a report.
 
-## [Project 3: Wrangle and Analyze Data](4_Wrangle_And_Analyze_Data/4_Wrangle_And_Analyze_Data.ipynb) (In Progress)
+## [Project 3: Wrangle and Analyze Data]
 
 Real-world data rarely comes clean. Using Python, you'll gather data from a variety of sources, assess its
 quality and tidiness, then clean it. You'll document your wrangling efforts in a Jupyter Notebook, plus
