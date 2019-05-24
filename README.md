@@ -30,7 +30,7 @@ Real-world data rarely comes clean. Using Python, you'll gather data from a vari
 quality and tidiness, then clean it. You'll document your wrangling efforts in a Jupyter Notebook, plus
 showcase them through analyses and visualizations using Python and SQL.
 
-## Project 4: Communicate Data Findings
+## [Project 4: Communicate Data Findings](5_Communicate_Data_Findings)
 
 In this project, you will use Python’s data visualization tools to systematically explore a selected dataset for
 its properties and relationships between variables. Then, you will create a presentation that communicates

@@ -13294,22 +13294,22 @@ div#notebook {
 <li>Neural network image predictions of WeRateDogs tweets (<code>image_predictions.tsv</code>).</li>
 <li>Additional metadata about each tweet (such as retweet count and favorite count). I used the tweet IDs in the WeRateDogs Twitter archive to get this data from the Twitter API (<code>tweet_json.txt</code>).</li>
 </ul>
-<p>First I <strong>gathered</strong> the data from the files and from the Twitter API. Than I <strong>assessed</strong> the data for quality and tidyness issues. Then I <strong>cleaned</strong> the data to address the issues I found and position the data for later analysis. I found several issues that had to be adddressed:</p>
+<p>First I <strong>gathered</strong> the data from the files and from the Twitter API. Than I <strong>assessed</strong> the data for quality and tidyness issues. Then I <strong>cleaned</strong> the data to address the issues I found and position the data for later analysis. I found several issues that had to be adddressed:
+I've identified the following <strong>quality issues</strong>:</p>
 <ul>
-<li>Several rows referred to tweets that WeRateDogs had retweeted from other users. Those weren't relevant to my analysis so I needed to drop them. Some examples of these unneeded columns:<ul>
-<li><code>id_str</code>: string representation of the id</li>
-<li><code>truncated</code>: whether the tweet was truncated (almost always false)</li>
-<li><code>possibly_sensitive</code>: url might have sensitive content (almost always false)</li>
-<li><code>favorited</code>: whether the tweet was favorited by the authenticated user (me) - not </li>
-<li><code>entities</code> and <code>extended_entities</code>: these are JSON values containing extended information about media connected with the tweet.</li>
+<li>Indexes on the three different data sets don't match</li>
+<li>Empty and unneeded columns should be eliminated</li>
+<li>Datatypes need to be corrected</li>
+<li>Some tweets don't have images and/or ratings</li>
+<li>The doggie stages are spread across four columns and not normalized</li>
+<li>Ratings are spread between two numerator and denominator columns and should be in a single column, also the existing numerator/denominator values don't appear to be accurate compared to the tweet text</li>
+<li>Image predictions have inconsistent casing (mix of uppercase and lowercase)</li>
+<li>Image predictions are spread across three columns and should be in a single column</li>
 </ul>
-</li>
-<li>There were numerous empty and unneccesary columns. I had to find them, determine their usage, and decide whether or not to keep them. I decided to eliminate any columns that didn't support my analysis. Some examples of empty columns:<ul>
-<li>The <code>contributors</code>, <code>coordinates</code>, and <code>geo</code> had missing data (and <code>place</code> only has 1 value)</li>
-</ul>
-</li>
-<li>I needed to create several derived columns to support later analysis. For example, I created a derived <code>rating</code> column to allow for me to compare WeRateDogs' unusual rating system where numerators and denominators vary wildly. I also created a column called <code>social_total</code> that combined retweet count and favorite count into one "social signal" value.</li>
-<li>Several columns weren't normalized and needed to be repaired (for example, there were three sets of columns labeled <code>p1..p3</code> that refered to three levels of image predictions.</li>
+<p>And the following <strong>tidyness issues</strong>:</p>
+<ul>
+<li>A single, merged dataframe should be created</li>
+<li>For convenience, I'd like a single column that sums all "social signals" a tweet received from other users (retweets and favorites) </li>
 </ul>
 <p>The final, cleaned dataframe has the following columns:</p>
 
