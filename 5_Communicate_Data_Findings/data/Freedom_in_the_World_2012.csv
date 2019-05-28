@@ -8,17 +8,15 @@ Brazil,2,2,F
 Bulgaria,2,2,F
 Canada,1,1,F
 Chile,1,1,F
-China-Shanghai,7,6,NF
+China (Shanghai),7,6,NF
 Chinese Taipei,7,6,NF
 Colombia,3,4,PF
-Connecticut (USA),1,1,F
 Costa Rica,1,1,F
 Croatia,1,2,F
 Czech Republic,1,1,F
 Denmark,1,1,F
 Estonia,1,1,F
 Finland,1,1,F
-Florida (USA),1,1,F
 France,1,1,F
 Germany,1,1,F
 Greece,2,2,F
@@ -32,24 +30,23 @@ Italy,2,1,F
 Japan,1,2,F
 Jordan,6,5,NF
 Kazakhstan,6,5,NF
-Korea,1,2,F
 Latvia,2,2,F
 Liechtenstein,1,1,F
 Lithuania,1,1,F
 Luxembourg,1,1,F
 Macao-China,7,6,NF
 Malaysia,4,4,PF
-Massachusetts (USA),1,1,F
 Mexico,3,3,PF
 Montenegro,3,2,F
 Netherlands,1,1,F
 New Zealand,1,1,F
 Norway,1,1,F
-Perm(Russian Federation),6,5,NF
+Perm (Russian Federation),6,5,NF
 Peru,2,3,F
 Poland,1,1,F
 Portugal,1,1,F
 Qatar,6,5,NF
+Republic of Korea,1,2,F
 Romania,2,2,F
 Russian Federation,6,5,NF
 Serbia,2,2,F
@@ -63,7 +60,8 @@ Thailand,4,4,PF
 Tunisia,3,4,PF
 Turkey,3,4,PF
 United Arab Emirates,6,6,NF
-United Kingdom,1,1,F
+United Kingdom (excl.Scotland),1,1,F
+United Kingdom (Scotland),1,1,F
 United States of America,1,1,F
 Uruguay,1,1,F
-Vietnam,7,5,NF
+Viet Nam,7,5,NF
