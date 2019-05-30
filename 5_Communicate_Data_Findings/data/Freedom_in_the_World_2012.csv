@@ -1,67 +1,87 @@
-﻿country,political_rights,civil_liberties,freedom_status
-Albania,3,3,PF
-Argentina,2,2,F
-Australia,1,1,F
-Austria,1,1,F
-Belgium,1,1,F
-Brazil,2,2,F
-Bulgaria,2,2,F
-Canada,1,1,F
-Chile,1,1,F
-China (Shanghai),7,6,NF
-Chinese Taipei,7,6,NF
-Colombia,3,4,PF
-Costa Rica,1,1,F
-Croatia,1,2,F
-Czech Republic,1,1,F
-Denmark,1,1,F
-Estonia,1,1,F
-Finland,1,1,F
-France,1,1,F
-Germany,1,1,F
-Greece,2,2,F
-Hong Kong-China,7,6,NF
-Hungary,1,2,F
-Iceland,1,1,F
-Indonesia,2,3,F
-Ireland,1,1,F
-Israel,1,2,F
-Italy,2,1,F
-Japan,1,2,F
-Jordan,6,5,NF
-Kazakhstan,6,5,NF
-Latvia,2,2,F
-Liechtenstein,1,1,F
-Lithuania,1,1,F
-Luxembourg,1,1,F
-Macao-China,7,6,NF
-Malaysia,4,4,PF
-Mexico,3,3,PF
-Montenegro,3,2,F
-Netherlands,1,1,F
-New Zealand,1,1,F
-Norway,1,1,F
-Perm (Russian Federation),6,5,NF
-Peru,2,3,F
-Poland,1,1,F
-Portugal,1,1,F
-Qatar,6,5,NF
-Republic of Korea,1,2,F
-Romania,2,2,F
-Russian Federation,6,5,NF
-Serbia,2,2,F
-Singapore,4,4,PF
-Slovak Republic,1,1,F
-Slovenia,1,1,F
-Spain,1,1,F
-Sweden,1,1,F
-Switzerland,1,1,F
-Thailand,4,4,PF
-Tunisia,3,4,PF
-Turkey,3,4,PF
-United Arab Emirates,6,6,NF
-United Kingdom (excl.Scotland),1,1,F
-United Kingdom (Scotland),1,1,F
-United States of America,1,1,F
-Uruguay,1,1,F
-Viet Nam,7,5,NF
+﻿country,SUBNATIO,political_rights,civil_liberties,freedom_status
+Albania,80000,3,3,PF
+Argentina,320000,2,2,F
+Argentina,320100,2,2,F
+Australia,360000,1,1,F
+Austria,400000,1,1,F
+Belgium,560000,1,1,F
+Belgium,560100,1,1,F
+Brazil,760000,2,2,F
+Bulgaria,1000000,2,2,F
+Canada,1240000,1,1,F
+Chile,1520000,1,1,F
+China (Shanghai),1560000,7,6,NF
+Chinese Taipei,1580000,1,2,F
+Colombia,1700000,3,4,PF
+Costa Rica,1880000,1,1,F
+Croatia,1910000,1,2,F
+Czech Republic,2030000,1,1,F
+Denmark,2080000,1,1,F
+Estonia,2330000,1,1,F
+Finland,2460000,1,1,F
+France,2500000,1,1,F
+Germany,2760000,1,1,F
+Greece,3000000,2,2,F
+Hong Kong-China,3440000,5,2,PF
+Hungary,3480000,1,2,F
+Iceland,3520000,1,1,F
+Indonesia,3600000,2,3,F
+Ireland,3720000,1,1,F
+Israel,3760000,1,2,F
+Italy,3800000,2,1,F
+Japan,3920000,1,2,F
+Jordan,4000000,6,5,NF
+Kazakhstan,3980000,6,5,NF
+Latvia,4280000,2,2,F
+Liechtenstein,4380000,1,1,F
+Lithuania,4400000,1,1,F
+Luxembourg,4420000,1,1,F
+Macao-China,4460000,7,6,NF
+Malaysia,4580000,4,4,PF
+Mexico,4840000,3,3,PF
+Montenegro,4990000,3,2,F
+Netherlands,5280000,1,1,F
+New Zealand,5540000,1,1,F
+Norway,5780000,1,1,F
+Perm (Russian Federation),6430059,6,5,NF
+Peru,6040000,2,3,F
+Poland,6160000,1,1,F
+Portugal,6200000,1,1,F
+Qatar,6340000,6,5,NF
+Republic of Korea,4100000,1,2,F
+Romania,6420000,2,2,F
+Russian Federation,6430000,6,5,NF
+Serbia,6880000,2,2,F
+Singapore,7020000,4,4,PF
+Slovak Republic,7030000,1,1,F
+Slovenia,7050000,1,1,F
+Spain,7240000,1,1,F
+Spain,7240100,1,1,F
+Spain,7240200,1,1,F
+Spain,7240300,1,1,F
+Spain,7240400,1,1,F
+Spain,7240600,1,1,F
+Spain,7240700,1,1,F
+Spain,7240900,1,1,F
+Spain,7241000,1,1,F
+Spain,7241100,1,1,F
+Spain,7241200,1,1,F
+Spain,7241300,1,1,F
+Spain,7241400,1,1,F
+Spain,7241500,1,1,F
+Spain,7241600,1,1,F
+Sweden,7520000,1,1,F
+Switzerland,7560000,1,1,F
+Thailand,7640000,4,4,PF
+Tunisia,7880000,3,4,PF
+Turkey,7920000,3,4,PF
+United Arab Emirates,7840000,6,6,NF
+United Arab Emirates,7840100,6,6,NF
+United Arab Emirates,7840200,6,6,NF
+United Kingdom (Scotland),8262000,1,1,F
+United Kingdom (excl.Scotland),8260000,1,1,F
+United States of America,8400000,1,1,F
+United States of America,8400100,1,1,F
+United States of America,8400200,1,1,F
+United States of America,8400300,1,1,F
+Uruguay,8580000,1,1,F
