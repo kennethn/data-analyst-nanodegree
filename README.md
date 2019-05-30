@@ -36,4 +36,4 @@ In this project, you will use Python’s data visualization tools to systematica
 its properties and relationships between variables. Then, you will create a presentation that communicates
 your findings to others.
 
-![https://confirm.udacity.com/LHUD6EUJ](DAND-Certificate-Ken-Norton.svg)
+[![](DAND-Certificate-Ken-Norton.svg)](https://confirm.udacity.com/LHUD6EUJ)
